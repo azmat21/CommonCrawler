@@ -135,6 +135,6 @@ class CrawlerThread(threading.Thread):
 if __name__ == "__main__":
     domain = 'bagdax.cn' # raw_input("请输入url入口:\n")
     threadnum = 30  # int(raw_input("设置线程数:"))
-    crawlername = "小小爬虫"
+    crawlername = "azim爬虫"
     crawler = Crawler(crawlername, domain, threadnum)
     crawler.craw()
